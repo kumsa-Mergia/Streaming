@@ -11,6 +11,7 @@ const Album = () => {
   return (
     <div className=" p-4 fixed top-0 right-0 h-full">
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo1} className="h-8 w-8" />
@@ -25,6 +26,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo2} className="h-8 w-8" />
@@ -39,6 +41,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo3} className="h-8 w-8" />
@@ -53,6 +56,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo4} className="h-8 w-8" />
@@ -65,6 +69,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo5} className="h-8 w-8" />
@@ -92,6 +97,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo7} className="h-8 w-8" />
@@ -104,6 +110,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo2} className="h-8 w-8" />
@@ -118,6 +125,7 @@ const Album = () => {
         </div>
       </div>
       {/* ########### */}
+      
       <div className="flex gap-6 py-1 hover:bg-green-700 hover:p-3">
         <div>
           <img src={photo4} className="h-8 w-8" />
