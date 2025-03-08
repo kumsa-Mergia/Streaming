@@ -3,6 +3,7 @@ import Sidebar from '../Component/Sidebar/Sidebar'
 import Center from './Center'
 import Album from '../Component/Album/Album'
 import Play from "../Play/Play"
+
 const Home = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Home = () => {
       <div className="w-[2px] h-8 bg-gray-300 mx-2"></div>
       <Center />
       <Album />
-
+      {/* Make Vertical line */}
     </div>
     <hr />
     <div>
