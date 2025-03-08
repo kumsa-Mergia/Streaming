@@ -14,6 +14,7 @@ const PopularTracks = () => {
   const [hoveredRow, setHoveredRow] = useState(null); // state to track hovered row
 
   // Array of photo sources for each row
+  
   const photos = [photo1, photo2, photo3, photo4, photo5, photo6];
 
   return (
