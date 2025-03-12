@@ -7,16 +7,16 @@ import { MdOutlineAlbum } from "react-icons/md";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { MdOutlinePlaylistAdd } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
-import logo from "../../assets/img/icon.png";
+import logo from "../../assets/img/icon.jpg";
 import photo1 from "../../assets/album/1.jpg";
 
 const Sidebar = () => {
   return (
-    <div className="w-64  p-4 fixed top-0 left-0 h-full">
+    <div className="w-64  p-4 top-0 left-0 h-full">
       <div className="grid">
         <div className="flex pl-2 py-3">
-          <img src={logo} className="h-20 w-20" />
-          <h1 className="text-3xl text-green-700">humble melody</h1>
+          <img src={logo} className="h-20 w-20 rounded-full" />
+          <h1 className="text-3xl text-green-700 pl-3">Music Hub</h1>
         </div>
         <div>
           <CiSearch />
