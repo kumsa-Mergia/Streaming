@@ -46,76 +46,35 @@ const PopularTracks = () => {
             </thead>
 
             <tbody>
-              {[1, 2, 3, 4, 5, 6].map((index) => (
-                <tr
-                  key={index}
-                  className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
-                  onMouseEnter={() => setHoveredRow(index)} // Set the hovered row index
-                  onMouseLeave={() => setHoveredRow(null)} // Reset on mouse leave
-                >
-                  <td className="px-6 py-4">
-                    {hoveredRow === index ? (
-                      <FaPlayCircle className="text-xl text-gray-500" /> // Show play icon on hover
-                    ) : (
-                      index // Show number normally
-                    )}
-                  </td>
-                  <td className="px-6 py-4 flex gap-3">
-                    <CiHeart />
-                    <img className="h-8 w-8" src={photos[index - 1]} alt="" /> {/* Dynamic photo for each row */}
-                    {index === 1
-                      ? "Ersu Yilag Enji"
-                      : index === 2
-                      ? "Esu Sew Kebere"
-                      : index === 3
-                      ? "Serah Yamesegenehal"
-                      : index === 4
-                      ? "Yegirbe"
-                      : index === 5
-                      ? "Betarikeh"
-                      : "Salamakir Alwetam"} {/* Title for each row */}
-                  </td>
-                  <td className="px-6 py-4">
-                    {index === 1
-                      ? "Azeb Hailu"
-                      : index === 2
-                      ? "Bereket Tesfaye"
-                      : index === 3
-                      ? "Tesfaye Gabisso"
-                      : index === 4
-                      ? "Bereket Tesfaye"
-                      : index === 5
-                      ? "Hana Tekle"
-                      : "Azeb Hailu"} {/* Artist for each row */}
-                  </td>
-                  <td className="px-6 py-4">
-                    {index === 1
-                      ? "Yechelal"
-                      : index === 2
-                      ? "Memihiru"
-                      : index === 3
-                      ? "Awon Yehonal"
-                      : index === 4
-                      ? "Memihiru"
-                      : index === 5
-                      ? "Habte Semay"
-                      : "Yechelal"} {/* Album for each row */}
-                  </td>
-                  <td className="px-6 py-4">
-                    {index === 1
-                      ? "5:45"
-                      : index === 2
-                      ? "5:59"
-                      : index === 3
-                      ? "4:10"
-                      : index === 4
-                      ? "6:09"
-                      : index === 5
-                      ? "4:26"
-                      : "4:16"} {/* Duration for each row */}
-                  </td>
-                </tr>
-              ))}
+              <tr
+                key={1}
+                className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
+                onMouseEnter={() => setHoveredRow(1)} // Set the hovered row index
+                onMouseLeave={() => setHoveredRow(null)} // Reset on mouse leave
+              >
+                <td className="px-6 py-4">
+                  {hoveredRow === 1 ? (
+                    <FaPlayCircle className="text-xl text-gray-500" /> // Show play icon on hover
+                  ) : (
+                    1 // Show number normally
+                  )}
+                </td>
+                <td className="px-6 py-4 flex gap-3">
+                  <CiHeart />
+                  <img className="h-8 w-8" src={photos[0]} alt="" />{" "}
+                  {/* Static photo for the row */}
+                  "Ersu Yilag Enji" {/* Title for the row */}
+                </td>
+                <td className="px-6 py-4">
+                  "Azeb Hailu" {/* Artist for the row */}
+                </td>
+                <td className="px-6 py-4">
+                  "Yechelal" {/* Album for the row */}
+                </td>
+                <td className="px-6 py-4">
+                  "5:45" {/* Duration for the row */}
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
