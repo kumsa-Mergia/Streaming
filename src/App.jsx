@@ -30,15 +30,7 @@ const App = () => {
     <div>
       <Home />
     </div>
-<<<<<<< HEAD
   );
 };
 
-export default App;
-=======
-    
-  )
-}
-
 export default App
->>>>>>> ae16a3b7889845660812e8c0d263c01293c18cc3
