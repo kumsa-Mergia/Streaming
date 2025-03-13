@@ -10,7 +10,7 @@ const Center = () => {
     <div className="w-full p-4 overflow-y-auto h-full ml-auto mr-auto">
       
 
-      <PopularAlbum albumId="4aawyAB9vmqN3uQ7FjRGTy" />
+      <PopularAlbum />
       <PopularTracks />
       <NewReleases />
     </div>
