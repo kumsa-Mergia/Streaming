@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { RiArrowRightSLine } from "react-icons/ri";
 import thumbnail1 from "../../assets/album/1.jpg";
 
-
-
+const PopularAlbum = () => {
   return (
+
     <div>
       <div className="p-5 flex text-4xl">
         <h1 className="text-gray-500">Popular Albums</h1>
@@ -25,8 +25,7 @@ import thumbnail1 from "../../assets/album/1.jpg";
       </div>
 
 
-    </div>
-  );
-};
+    </div>  )
+}
 
-export default PopularAlbum;
+export default PopularAlbum
